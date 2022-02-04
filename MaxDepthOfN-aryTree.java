@@ -1,4 +1,4 @@
-/*
+/*              559. Maximum Depth of N-ary Tree
 // Definition for a Node.
 class Node {
     public int val;
