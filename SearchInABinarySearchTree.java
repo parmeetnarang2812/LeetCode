@@ -19,8 +19,9 @@ Constraints:
     1 <= val <= 107 
 */
 
-
-/* 
+/* Time Complexity: O(logn) in average case, but in worst case O(n)(worst case is skewed tree)
+   Space Complexity : O(1) */
+/*  my leetcode soln
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
         
