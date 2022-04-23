@@ -51,3 +51,26 @@ class Solution {
     }
 } 
 */
+
+/*  recursion method - TLE
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+
+        int ans = coinChangeHelper(coins, amount);
+        return ans != (int) 1e9 ? ans : -1;
+    }
+
+    private int coinChangeHelper(int[] coins, int tar) {
+        if (tar == 0)
+            return 0;
+
+        int min = (int) 1e9;
+        for (int coin : coins) {
+            if (tar - coin >= 0) {
+                min = Math.min(min, coinChangeHelper(coins, tar - coin) + 1);
+            }
+        }
+        return min;
+    }
+} 
+*/
