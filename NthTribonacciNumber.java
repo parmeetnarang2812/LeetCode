@@ -1,4 +1,4 @@
-class NthTribonacciNumber {
+/* class NthTribonacciNumber {
     public int tribonacci(int n) {
         int[] dp = new int[n+1];
         // return tribonacci_recursion(n);
@@ -61,4 +61,4 @@ class NthTribonacciNumber {
         return tribonacci(n-1) + tribonacci(n-2) + tribonacci(n-3);
     }
 
-}
+} */
